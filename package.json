@@ -1,0 +1,26 @@
+{
+  "name": "ultimatedevproject",
+  "version": "1.0.0",
+  "description": "Building everything I know, and teaching new(er) developers how to do it.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElvinSamuel/ultimateproject.git"
+  },
+  "keywords": [
+    "All-In-One",
+    "Ultimate",
+    "Developer",
+    "Elvin",
+    "Samuel"
+  ],
+  "author": "Elvin M. Samuel <elvinsamuel1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElvinSamuel/ultimateproject/issues"
+  },
+  "homepage": "https://github.com/ElvinSamuel/ultimateproject#readme"
+}
