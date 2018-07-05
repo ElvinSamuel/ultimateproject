@@ -1,4 +1,4 @@
-# Ultimate Web Developer Project (Gulp Branch)
+# Ultimate Web Developer Project (Pug Branch)
 
-## Adding Gulp To The Project
+## Adding Pug To The Project
 
