@@ -1,0 +1,30 @@
+{
+  "name": "ultimatedevproject",
+  "version": "1.0.0",
+  "description": "Contains everything that I know about Web Development contained in one (eventually huge) project.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElvinSamuel/ultimateproject.git"
+  },
+  "keywords": [
+    "Elvin",
+    "Samuel",
+    "Developer",
+    "Ultimate",
+    "NodeJS"
+  ],
+  "author": "Elvin M. Samuel <elvinsamuel1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElvinSamuel/ultimateproject/issues"
+  },
+  "homepage": "https://github.com/ElvinSamuel/ultimateproject#readme"
+}
