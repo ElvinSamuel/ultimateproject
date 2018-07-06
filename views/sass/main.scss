@@ -1,11 +1,9 @@
-// Variables ===========
-$ox:   482020;
-$sage: 7A907A;
-$blue: 081C30;
-$tan:  F8F5DC;
-$gold: DFBA69; 
-// =====================
+$ox:   #482020;
+$sage: #7A907A;
+$blue: #081C30;
+$tan:  #F8F5DC;
+$gold: #DFBA69; 
 
-body {
-	background: #ox;
+html, body {
+	background-color: $tan;
 }

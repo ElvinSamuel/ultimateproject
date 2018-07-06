@@ -1,9 +1,11 @@
 var express = require('express'),
-    app     = express(),
-    index = require('./routes/index.js');
+    index   = require('./routes/index.js'),
+    path    = require('path'),
+
+    app     = express();
 
 // ==========================
-app.use(express.static('./public'));
+app.use(express.static(path.join(__dirname + '/public')));
 // ==========================
 // My Routes
 // ==========================
