@@ -1,7 +1,9 @@
 var express = require('express'),
-    app     = express();
+    app     = express(),
+    index = require('./routes/index.js');
 
-var index = require('./routes/index.js');
+// ==========================
+app.use(express.static('./public'));
 // ==========================
 // My Routes
 // ==========================
