@@ -1,11 +1,14 @@
-var express = require('express'),
-    index   = require('./routes/index.js'),
-    path    = require('path'),
+var express  = require('express'),
+    index    = require('./routes/index.js'),
+    path     = require('path'),
+    mongoose = require('mongoose'),
 
-    app     = express();
+    app      = express();
 
 // ==========================
+mongoose.Promise  = global.Promise;
 app.use(express.static(path.join(__dirname + '/public')));
+mongoose.connect('mongodb://localhost/ultimateWebDev', {useNewUrlParser: true});
 // ==========================
 // My Routes
 // ==========================
