@@ -10,7 +10,9 @@ router.get('/', function(req, res){
 		if (err) {
 			console.log(err);
 		} else {
-			res.sendFile('/index.html', {testdata: allTestData});
+			res.render('/index.html', {
+				allTestData: allTestData
+			});
 		}
 	});
 });
